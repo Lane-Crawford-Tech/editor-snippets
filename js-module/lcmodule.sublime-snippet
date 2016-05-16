@@ -15,6 +15,8 @@
 
 	LC.$1.$2 = lcmodule( function( exports ) {
 
+		exports.moduleName = "$1.$2";
+
 		// "exports"" is always passed in, and always
 		// returned at the end. Bind "ex" as it's easier to type
 		// "_this" is used for private binding and maintaining scope
